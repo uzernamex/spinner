@@ -1,3 +1,12 @@
+let spinner = ['|', '/', '-', '\\']; 
+let index = 0;
+const position = function() {
+  setTimeout(() => {
+    process.stdout.write('\r|   ');
+  }, 100);
+};
+
+
 setTimeout(() => {
   process.stdout.write('\r|   ');
 }, 100);
